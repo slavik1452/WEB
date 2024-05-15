@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <title>Futura</title>
+    <link rel="stylesheet" href="navigation.css">
+    <meta http-equiv="Content-Type">
+    <meta name="viewport" content="width=device-width,
+    initial-scale=1.0">
+</head>
+<body>
+
+    <div class="header">
+        <div class="header__section">
+            <div class="header__item headerlogo">
+                LOGO
+            </div>
+        </div>
+        <div class="header__section">
+            <div class="header__item headerbutton">
+                <a href="">Про нас</a>
+            </div>
+            <div class="header__item headerbutton">
+                <a href="">Відгуки</a>
+            </div>
+            <div class="header__item headerbutton">
+                <a href="">Доставка і оплата</a>
+            </div>
+
+            <div class="header__item headerbuttonn">
+                <a href="">Контакти</a>
+                  <form action="/send_message.php" method="post">
+    <div class="form-group">
+      <label for="name">Ім'я:</label>
+      <input type="text" id="name" name="name" required>
+    </div>
+    <div class="form-group">
+      <label for="email">Email:</label>
+      <input type="text" id="email" name="email" required>
+    </div>
+    <div class="form-group">
+      <label for="message">Повідомлення:</label>
+      <textarea id="message" name="message" required></textarea>
+    </div>
+    <button type="submit">Надіслати</button>
+  </form>
+            </div>
+
+            <div class="burger">
+            <span></span>
+            </div>
+        </div>
+
+    </div>
+<main>
+    <div class="sideBar">
+        <div class="sideBar__section">
+            <div class="sideBar__item"><a href=""></a>Меблі для ванної</div>
+            <div class="sideBar__item"><a href=""></a>Меблі для кухні</div>
+            <div class="sideBar__item"><a href=""></a>Меблі для віталні</div>
+            <div class="sideBar__item"><a href=""></a>Дитячі меблі</div>
+            <div class="sideBar__item"><a href=""></a>Садові меблі</div>
+            <div class="sideBar__item"><a href=""></a>Меблі на замовлення</div>
+        </div>
+        <div class="sideBar__section">
+            <div class="sideBar__item"><a href=""></a>Store</div>
+            <div class="sideBar__item"><a href=""></a>Store</div>
+        </div>
+    </div>
+<div class="wrap">
+   <div class="search_block">
+  <form>
+    <input type="text" name=text" class="search" placeholder="Пошук">
+    <input type="submit" name="submit" class="submit" value="">
+  </form>
+</div>
+    <div class="pricing-container">
+  <!-- Перша цінова пропозиція -->
+
+  <div class="pricing-card">
+      <img src="Rectangle%2012.png" alt="">
+    <h2>Стіл</h2>
+    <div class="price">1000 грн</div>
+    <ul>
+      <li>Опції: Розкладний</li>
+      <li>Матеріал: Дуб</li>
+      <li>Гарантія: 12 місяців</li>
+    </ul>
+    <a href="#" class="btn">Придбати</a>
+  </div>
+          <!-- Друга цінова пропозиція -->
+  <div class="pricing-card">
+      <img src="Rectangle%2014.png" alt="">
+    <h2>Ліжко</h2>
+    <div class="price">10000 грн</div>
+    <ul>
+      <li>Опції:</li>
+      <li>Матеріал:</li>
+      <li>Гарантія: 12 місяців</li>
+    </ul>
+    <a href="#" class="btn">Придбати</a>
+  </div>
+
+  <!-- Третя цінова пропозиція -->
+  <div class="pricing-card">
+      <img src="Rectangle%2015.png" alt="">
+    <h2>Кухонний стіл</h2>
+    <div class="price">3000 грн</div>
+    <ul>
+      <li>Опції:</li>
+      <li>Матеріал:</li>
+      <li>Гарантія: 12 місяців</li>
+    </ul>
+    <a href="#" class="btn">Придбати</a>
+  </div>
+<div class="gallery">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/MDLNILMpU3c?si=uvW98yJJHi45cJjf" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <div><img src="Rectangle%2012.png" alt="">
+    </div>
+    <div><img src="Rectangle%2013.png" alt=""></div>
+    <div><img src="Rectangle%2014.png" alt=""></div>
+    <div><img src="Rectangle%2015.png" alt=""></div>
+    <div><img src="Rectangle%2016.png" alt=""></div>
+    <div><img src="Rectangle%2017.png" alt=""></div>
+    <div><img src="Rectangle%2018.png" alt=""></div>
+    <div><img src="Rectangle%2019.png" alt=""></div>
+</div>
+</div>
+</main>
+    <div class="footer">
+            <div class="paragraph-container">
+
+        <p>LOGO</p>
+        <p>This is the second paragraph.</p>
+        <p>This is the third paragraph.</p>
+    </div>
+    </div>
+ <script>
+        document.querySelector('.burger').addEventListener('click', function(){
+            this.classList.toggle('active');
+            document.querySelector('.sideBar__section').classList.toggle('open');}
+        )
+</script>
+</body>
+</html>
